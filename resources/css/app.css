@@ -1,0 +1,110 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap');
+
+
+
+:root {
+
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: -0.05em;
+
+    --orange: #E46A12;
+    --black-75: 0, 0, 0, 0.75;
+    --black-50: 0, 0, 0, 0.50;
+    --info: #40C0D2;
+    --success: #51D175;
+    --error: #D24040;
+    --warning: #F5A52E;
+
+}
+
+.sty {
+  mix-blend-mode:multiply;
+}
+.to-left {
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-duration: 60s;
+    
+}
+.to-left1 {
+    animation-name: move1;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-duration: 90s;
+    
+}
+.divider {
+  border-bottom-color: (270deg, transparent 15%, var(--clr-border) 15%, var(--clr-border) 85%, transparent 85%)
+}
+
+
+@keyframes move {
+    from{ transform: translateX(0px);}
+    to{ transform: translateX(-10000px);}
+    
+}
+@keyframes move1 {
+  from{ transform: translateX(4400px);}
+  to{ transform: translateX(-10000px);}
+  
+}
+
+
+@keyframes bounce {
+   
+  0%, 100% {
+    transform: translateY(-2%);
+  }
+  50% {
+    transform: translateY(0);
+  }
+
+}
+@keyframes animation {
+    bounce { animation: delay 10s;;}
+    
+}
+
+
+/*MY CSS*/
+body
+{
+	text-align:center;
+	font-weight:bold;
+}
+/*CSS3 STROKE EFFECT*/
+#mainNav ul li {
+  display: inline-block;
+	display:inline;
+	margin: 20px;
+}
+#mainNav ul li a,
+#mainNav ul li a:after,
+#mainNav ul li a:before {
+  transition: all .5s;
+}
+/* stroke */
+#mainNav.stroke ul li a
+{
+  position: relative;
+}
+#mainNav.stroke ul li a:after,
+#mainNav ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #E34F25;
+  height: 1px;
+}
+#mainNav.stroke ul li a:hover:after {
+  width: 100%;
+}
