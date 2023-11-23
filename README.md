@@ -19,7 +19,7 @@ It is only for viewing our project TOMO. We're working on our front-end code now
 
 | Back-end                                                     |                                 Front-end                  |
 | ------------------------------------------------------------ | ---------------------------------------------------------- |
-| <img src="https://image.pngaaa.com/634/3353634-middle.png"  style="width:100px"/> <img src="https://assets.stickpng.com/images/5848104fcef1014c0b5e4950.png" style="width:100px"/> | <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"  style="width:100px"/> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"  style="width:100px"/> |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png"  style="width:100px"/> <img src="https://brandslogos.com/wp-content/uploads/thumbs/mysql-logo-vector-1.svg" style="width:100px"/> | <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"  style="width:100px"/> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"  style="width:100px"/> |
 
   
 
